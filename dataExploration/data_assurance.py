@@ -32,7 +32,7 @@ plt.show()
 max_daily_failures = max(dat.loc[:,'failure'])
 print('\nMax number of individual failures in single day: {}'.format(max_daily_failures))
 input()
-A: no
+# A: no
 
 
 # Q: Can a device fail more than once?
