@@ -29,12 +29,8 @@ class DataGenerator():
           continue
 
         # +2 because of reading/indexing mismatch
-        # if mode == 'test':
-        #   self.test_index.append(index)
         line = linecache.getline(self.dataPath, index+2).rstrip().split(',')
         if self.SMOTE:
-          # if mode != 'train':
-          #   line = np.delete(line, [1,9])
           pass
         else:
           line = np.delete(line, [1,9])
