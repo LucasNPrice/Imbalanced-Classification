@@ -22,4 +22,8 @@ Two approaches:
 **metrics.py**
   - Method for compting Focal Loss to over-emphasize minority classes. 
   
-Original data exploration and naive models in dataExploration folder. 
+Original data exploration and naive models in **dataExploration** folder. 
+  - **data_assurance.py**: understanding the problem. 
+  - **data_exploration.py**: summary statistics, visualizations, distributions. 
+  - **sloppyForest.py**: random forest to ensure data complexity required Neural Nets.
+  - **feature_analytics**: assess feature distributions after transformations to ensure train, val, test distributions were compatible. 
