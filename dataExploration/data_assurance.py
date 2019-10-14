@@ -10,7 +10,7 @@ A = answer
 O = observation
 """
 
-dir_ = '/Users/lukeprice/Codes/BrainCorp/'
+dir_ = ...
 dat = pd.read_csv(dir_ + 'device_failure_data_scientist.csv')
 dat = dat.sort_values(by = ['device', 'date'])
 # # O: the date is not YYYY-MM-DD. It appears to be simply be add int(1) for each new day.

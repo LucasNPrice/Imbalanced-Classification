@@ -6,7 +6,7 @@ from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 
 
-dir_ = '/Users/lukeprice/Codes/BrainCorp/'
+dir_ = ...
 dataPath = dir_ + 'device_failure_data_scientist.csv'
 
 # train, val, test split

@@ -21,7 +21,7 @@ class Analyze():
 # -----------------------------------------------------------
 # below should be ran on separate script. pasted here to reduce file number 
 # original dir and data path
-dir_ = '/Users/lukeprice/Codes/BrainCorp/'
+dir_ = ...
 data = dir_ + 'device_failure_data_scientist.csv'
 
 # train, val, test split
