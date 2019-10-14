@@ -2,6 +2,7 @@
 Methods and models for classification with large class imbalances. 
 
 **Goal**: classify failure and non-failures (0/1). 
+
 **Challenge**: large class imbalance (124388:106 > 1000:1).
 
 Two approaches:
