@@ -1,5 +1,5 @@
 # Imbalanced-Classification
-Methods and models for classification with large class imbalances. 
+## Methods and models for classification with large class imbalances. 
 
 **Goal**: classify failure and non-failures (0/1). 
 
@@ -9,6 +9,7 @@ Two approaches:
   1. Focal Loss with downsampling of majority classes - **runFocal.py**
   2. SMOTE: synthetic minority over-sampling technique to oversample synthetic minority classes - **runSMOTE.py**
   
+
 **Preprocess.py**
   - Preprocessing methods. 
   
