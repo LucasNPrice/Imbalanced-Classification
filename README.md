@@ -20,7 +20,7 @@ Two approaches:
   - Deep dense net model for training, testing, and evaluating.
   
 **metrics.py**
-  - Method for compting Focal Loss to over-emphasize minority classes. 
+  - Method for computing Focal Loss to over-emphasize minority classes. 
   
 Original data exploration and naive models in **dataExploration** folder. 
   - **data_assurance.py**: understanding the problem. 
