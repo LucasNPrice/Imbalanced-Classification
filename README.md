@@ -29,6 +29,6 @@ Original data exploration and naive models in **dataExploration** folder.
   - **feature_analytics**: assess feature distributions after transformations to ensure train, val, test distributions were compatible. 
   
 **NOTES**:
-  - layman's idea: use data from day *t* to predict failure/non-failure on day *t*.  
+  - general idea: use data from day *t* to predict failure/non-failure on day *t*.  
   - it may be useful (possibly even better) to use an autoregressive time-series model (ex: use data on day *t-1* to predict failure/non-failure on day *t*).
   - more knowledge of the problem and specifics of the data aquisition process would aid in determining which approach to use. 
